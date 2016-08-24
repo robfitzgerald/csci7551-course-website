@@ -8,7 +8,6 @@
 		.get('/', (req, res, next) => {
 			res.sendFile(__dirname + '/public/html/index.html', (err) => {
 				if (err) next(err)
-				else next()
 			})
 		})
 
