@@ -5,8 +5,11 @@
 
 	router
 		.use(express.static(__dirname + '/public')) // node_modules/csci7551-course-website/
-		.get('/', function(req, res, next) {
-			res.send('<html><head><title>Rob Fitzgerald CSCI 7551 Website</title></head><body><script src="js/test.js"></script></body></html>')
+		.get('/', (req, res, next) => {
+			res.sendFile(__dirname + '/public/html/index.html', (err) => {
+				if (err) next(err)
+				else next()
+			})
 		})
 
 	module.exports = router

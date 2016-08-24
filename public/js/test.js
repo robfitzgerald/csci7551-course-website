@@ -1,5 +1,5 @@
 // test of public file loading setup
 'use strict';
 {
-	document.write('<h1>Placeholder for course website</h1>')
+	document.write('<p>Placeholder for Rob Fitzgerald CSCI 7551 course website</p>')
 }
