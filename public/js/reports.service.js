@@ -26,15 +26,3 @@
 		}
 	}
 }
-
-/*
-	{
-		articleTitle: '',
-		articleAuthors: '',
-		articleSource: '',
-		reviewDate: '',
-		articleURL: '',
-		articleFile: 'articles/..',
-		review: 'html/reviews/..',
-	}
- */
