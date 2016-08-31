@@ -3,18 +3,24 @@
 	angular
 		.module('DistributedSite')
 		// .controller('presentPageController', ['$scope', 'pageService', presentPageController])
-		.directive('report', ['ReportsService', reportDirective])
+		.directive('listReports', ['ReportsService', reportDirective])
 
 
 	function reportDirective(ReportsService) {
 		return {
 			restrict: 'E',
-			scope: {
-				report: '=report'
+			// scope: {
+			// 	report: '=report'
+			// },
+			templateUrl: 'html/reports.html',
+			controller: function(ReportsService) {
+				console.log('ReportsService')
+				console.log(ReportsService)
+				console.log(ReportsService.getReports())
+				var vm = this
+				vm.reports = ReportsService.getReports()
 			},
-			templateUrl: 'html/report.html',
-			// controller: () => {},
-			// controllerAs: 'r'
+			controllerAs: 'r'
 			// controller: () => {
 			// 	var vm = this
 			// 	vm.report = ReportsService[report]
