@@ -27,7 +27,7 @@
 					articleSource: 'PowerPoint Presentation',
 					reviewDate: new Date(2016, 11, 10),
 					articleURL: '',
-					download: 'robfitzgerald-traffic-assignment.pptx',
+					download: 'reviews/robfitzgerald-traffic-assignment.pptx',
 					description: 'The research presentation slides which introduce the methods used for simulating assignment of traffic to a road network.'					
 				},
 				{
@@ -36,7 +36,7 @@
 					articleSource: 'PowerPoint Presentation',
 					reviewDate: new Date(2016, 12, 6),
 					articleURL: '',
-					download: 'robfitzgerald-traffic-assignment-project.pptx',
+					download: 'reviews/robfitzgerald-traffic-assignment-project.pptx',
 					description: 'The project presentation slides showing the design and some implementation of my simulation application.'					
 				},
 				{
@@ -45,7 +45,7 @@
 					articleSource: 'GitHub Repo / Zip File',
 					reviewDate: new Date(2016, 12, 6),
 					articleURL: 'https://github.com/robfitzgerald/csci7551-project',
-					download: 'robfitzgerald-csci7551-project.zip',
+					download: 'reviews/robfitzgerald-csci7551-project.zip',
 					description: 'Simulation project implemented in C++ using OpenMP.  See README.md for installation and run instructions.'					
 				},
 				{
@@ -54,7 +54,7 @@
 					articleSource: 'PDF',
 					reviewDate: new Date(2016, 12, 6),
 					articleURL: '',
-					download: 'robfitzgerald-final-report.pdf',
+					download: 'reviews/robfitzgerald-final-report.pdf',
 					description: 'Simulation project implemented in C++ using OpenMP.  See README.md for installation and run instructions.'					
 				}
 			]
