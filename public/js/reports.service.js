@@ -22,6 +22,24 @@
 					description: 'This article presents a new approach for generating agents in an asynchronous network which are engaged in an evolutionary optimization algorithm.'
 				},
 				{
+					articleTitle: 'Team Assignment #1',
+					articleAuthors: '',
+					articleSource: '',
+					reviewDate: new Date(2016, 9, 8),
+					articleURL: '',
+					download: 'Team_Assignment_1.pdf',
+					description: 'Homework 2 Team Assignment #1: Summarize Parallel Algorithms So Far'
+				},
+				{
+					articleTitle: 'Team Assignment #2',
+					articleAuthors: '',
+					articleSource: '',
+					reviewDate: new Date(2016, 9, 8),
+					articleURL: '',
+					download: 'Team_Assignment_2.pdf',
+					description: 'Homework 2 Team Assignment #2: Two Examples of Prefix Sum'
+				},
+				{
 					articleTitle: 'Traffic Assignment Research Presentation',
 					articleAuthors: 'Rob Fitzgerald',
 					articleSource: 'PowerPoint Presentation',
